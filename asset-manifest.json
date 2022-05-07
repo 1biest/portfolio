@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.685127df.css",
+    "main.js": "/portfolio/static/js/main.ebfb6ec2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/degen-ape-1855.png": "/portfolio/static/media/degen-ape-1855.b540e1d2d4eaa2665ee3.png",
+    "static/media/degenApe.png": "/portfolio/static/media/degenApe.ae2039441555e69716f3.png",
+    "static/media/University-of-Lethbridge-Logo.jpg": "/portfolio/static/media/University-of-Lethbridge-Logo.7377cdf5550f0c6d5862.jpg",
+    "static/media/stakefish_icon_black-green.png": "/portfolio/static/media/stakefish_icon_black-green.579404a53736d20f4974.png",
+    "static/media/MetaMask_Fox.svg.png": "/portfolio/static/media/MetaMask_Fox.svg.908a7bd02e43908895d8.png",
+    "static/media/davis-auto-group-logo.png": "/portfolio/static/media/davis-auto-group-logo.2d9a1b13c11ffb8ac95c.png",
+    "static/media/stakefish_logo-green_black.png": "/portfolio/static/media/stakefish_logo-green_black.4ec18b7a23abb522f9ec.png",
+    "static/media/f2pool_logo_icon.png": "/portfolio/static/media/f2pool_logo_icon.196e621a2b4d66840e80.png",
+    "static/media/davis-gmc-buick-logo.png": "/portfolio/static/media/davis-gmc-buick-logo.f9a47ea0b069f81765f2.png",
+    "static/media/development-skill.svg": "/portfolio/static/media/development-skill.e88048b50db8dd132d777db8bdb0593a.svg",
+    "static/media/transformation-skill.svg": "/portfolio/static/media/transformation-skill.4bf363e66e9d4c0f82d3c1ed02aa4e54.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/visualization-skill.svg": "/portfolio/static/media/visualization-skill.606d010c8c41b6b5353cf2a31faadec8.svg",
+    "index.html": "/portfolio/index.html",
+    "main.685127df.css.map": "/portfolio/static/css/main.685127df.css.map",
+    "main.ebfb6ec2.js.map": "/portfolio/static/js/main.ebfb6ec2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.685127df.css",
+    "static/js/main.ebfb6ec2.js"
+  ]
+}

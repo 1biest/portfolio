@@ -1,0 +1,145 @@
+
+
+@media (max-width: 1200px){
+
+  h1 {
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(255,255,255);
+  }
+  
+  h2 {
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(255,255,255);
+  }
+  
+  h3 {
+    font-size: 2.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.3em;
+    color: rgb(240,240,240);
+  }
+  
+  h4 {
+    font-size: 1.8vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(240,240,240);
+  }
+  
+}
+
+@media (min-width: 1200px){
+
+  h1 {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(240,240,240);
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(240,240,240);
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(240,240,240);
+  }
+  
+  h4 {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    color: rgb(240,240,240);
+  }
+  
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.6em;
+  color: rgb(240,240,240);
+}
+
+a {
+  color: rgba(30,190,250);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.App{
+}
+
+.Header{
+    width: 60%;
+    margin: auto;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-right: solid;
+    border-left: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.01);
+};
+
+.LogoContainer{
+  background-color: #fff;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: -60px;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  border: solid;
+  border-width: 10px;
+  border-color: rgba(255,255,255);
+};
+
+.ColumnCenter {
+  width: 0px;
+  margin-left: 50%;
+  border-radius: 10px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.LogoContainer {
+    margin-top: 20px;
+    transition: all 1000ms;
+    transform: scale(0.7);
+
+}
+
+.LineSegment {
+  position: fixed;
+  left: 0px;
+  border: 6px solid #fff;
+  top: -100px;
+  height: 300px;
+}

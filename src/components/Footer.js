@@ -23,7 +23,6 @@ const Content = styled("div")`
 `;
 
 const HeaderBtn = styled("h3")`
-    color: rgba(30,190,250);
     cursor: pointer;
     line-height: 100%;
     transition: 500ms;
@@ -42,7 +41,6 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     padding-top: 50px;
 `;
 
@@ -102,7 +100,6 @@ const About = () => {
                     <HeaderBtn onClick={()=> window.open("https://www.linkedin.com/in/biest/", "_blank")}>LinkedIn</HeaderBtn>
                     <h4>logan.biesterfeldt@gmail.com</h4>
             </Body>
-            <Button onClick={() => scrollTo("#demo")}><LogoImage src={MetaMaskLogo}></LogoImage></Button>
             
         </Content>
     </Base>

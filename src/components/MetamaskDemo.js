@@ -7,13 +7,8 @@ import styled from "styled-components";
 import Tokenbalance from './TokenBalance';
 
 const Base = {
-
-    background: 'rgb(20,20,30)',
-    background: 'linear-gradient(60deg, rgba(20,20,30,1) 0%, rgba(60,70,70,1) 100%)',
-    
+    height: '600px', 
     margin: 'auto',
-    paddingTop: '200px',
-    height: '100vh',
     color: '#000',
     transition: 'all 500ms',
 }
@@ -26,16 +21,12 @@ const SectionHeader = {
 }
 
 const Content = styled("div")`
-    width: 50%;
-    max-width: 500px;
-    padding: 20px;
-    padding-bottom: 40px;
+    padding: 30px;
+    height: 540px;
+    background: rgb(253,120,60); 
     align-items: center;
     text-align: center;
-    border-radius: 20px;
     margin: auto;
-    background: rgb(253,120,60);
-    box-shadow: 0px 3px 60px 10px rgba(0, 0, 0, 0.3), inset -1px 1px 60px 20px rgba(255, 255, 255, 0.1);
     transform: scale(1);
     transition: all 500ms;
   
@@ -76,16 +67,14 @@ const MetamaskDemo = () => {
     const ethers = useEthers();
     const accountAddress = (ethers.account);
     const etherBalance = useEtherBalance(accountAddress);
-    const usdEthBalance = (etherBalance * ETHCADprice / 1000000000000000000).toFixed(2);
     const ens = useLookupAddress();
     const { activateBrowserWallet, account } = useEthers()
 
     return(
         <div id="demo" style={Base}>
-            <h3 style={SectionHeader}>WEB3 DEMO</h3>
             <Content>
-                <p style={{color: 'rgba(0,0,0,1'}}>Here is a mini app to check your MetaMask balance utilising the useDApp framework.</p>
                 <h2 style={{color: 'rgba(0,0,0,1'}}>Check MetaMask Balance</h2>
+                <p style={{color: 'rgba(0,0,0,1'}}>Here is a mini app to check your MetaMask balance utilising the useDApp framework.</p>
 
                 {ETHCADprice ? (
                     <h5>ETH Current Price ${ETHCADprice} USD</h5>

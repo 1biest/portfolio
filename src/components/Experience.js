@@ -97,7 +97,6 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     padding-top: 50px;
 `;
 
@@ -138,8 +137,6 @@ const Experience = () => {
                 </SectionText>
 
             </Body>
-                    <Button onClick={() => scrollTo("#portfolio")}>Portfolio</Button>
-            
         </Content>
     </Base>
 }

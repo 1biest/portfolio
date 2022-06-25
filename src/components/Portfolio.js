@@ -2,6 +2,10 @@ import '../App.css';
 import styled from 'styled-components';
 import Vimeo from '@u-wave/react-vimeo';
 import scrollTo from 'gatsby-plugin-smoothscroll';
+
+import Codepen1 from './codepen1.js';
+import Codepen2 from './codepen2.js';
+import MetamaskDemo from './MetamaskDemo.js';
  
 
 const Base = styled("div")`
@@ -28,7 +32,6 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     padding-top: 50px;
 `;
 
@@ -58,21 +61,44 @@ const Button = styled("div")`
 const VimeoWrapper = styled("div")`
     margin: auto;
     text-align: center;
-    max-width: 1200px;
+    width: 400px;
     margin-bottom: 30px;
 `;
+
+const Container = styled('div')`
+    display: flex;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+`
+
+const gridCell = styled('div')`
+    margin: 10px;
+`
 
 const About = () => {
     return <Base id="portfolio">
         <Content>
             <Header>
                 <SectionHeader>PORTFOLIO</SectionHeader>
-                <h2>Motion Graphics and Video Editing</h2>
+                <h2>Coding Examples</h2>
             </Header>
-            <VimeoWrapper>
-                <Vimeo responsive={true} video="453314475" />
-            </VimeoWrapper>
-            <Button onClick={() => scrollTo("#footer")}>Contact</Button>
+            <Container>
+                {/*<gridCell>
+                    <VimeoWrapper>
+                        <Vimeo responsive={false} video="453314475" />
+                    </VimeoWrapper>
+</gridCell>*/}
+                <gridCell>
+                    <MetamaskDemo></MetamaskDemo>
+                </gridCell>
+                <gridCell>
+                    <Codepen1></Codepen1>
+                </gridCell>
+                <gridCell>
+                    <Codepen2></Codepen2>
+                </gridCell>
+
+            </Container>
     
         </Content>
     </Base>

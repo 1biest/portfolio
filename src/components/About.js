@@ -82,14 +82,12 @@ const ColumnContent = styled("div")`
 `
 
 const SectionHeader = styled("h3")`
-    color: #0647bf;
     margin-block-start: 0em;
     margin-block-end: 0em;
 `;
 
 const HeaderBtn = styled("h3")`
     width: 40%;
-    color: #0647bf;
     cursor: pointer;
     line-height: 120%;
     transition: 500ms;

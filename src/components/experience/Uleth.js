@@ -8,7 +8,6 @@ const Base = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     line-height: 100%;
 `;
 

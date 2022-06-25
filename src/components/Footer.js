@@ -2,6 +2,8 @@ import '../App.css';
 import styled from 'styled-components';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
+import MetaMaskLogo from'../img/MetaMask_Fox.svg.png';
+
 const Base = styled("div")`
 
 background: rgb(20,20,30);
@@ -18,14 +20,6 @@ const Content = styled("div")`
     margin-left: 20px;
     margin-right: 20px;
     height: 100vh;
-`;
-
-const Button = styled("div")`
-    border-radius: 6px;
-    padding: 4px 8px 4px 8px;
-    background-color: rgba(0,0,0,0);
-    color: rgb(200,200,200);
-    cursor: pointer; 
 `;
 
 const HeaderBtn = styled("h3")`
@@ -64,6 +58,37 @@ const Body = styled("div")`
     box-shadow: 0 0 200px rgba(15,15,15,0.15);
 `;
 
+const Button = styled("div")`
+    border-radius: 6px;
+    padding: 4px 8px 4px 8px;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    color: rgb(30,190,250);
+    cursor: pointer;
+    border: solid;
+    border-color: rgb(30,190,250);
+    width: 150px;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    transition: all 500ms;
+
+    :hover {
+      color: rgb(60,60,70);
+      background-color: rgba(30,190,250,1);
+      transition: all 500ms;
+    }
+`;
+
+const LogoImage = styled("img")`
+    resize-mode: contain;
+    vertical-align: text-bottom;
+    height: 30px;
+    border-radius: 50;
+
+`
+
 const About = () => {
     return <Base id="footer">
             <Header>
@@ -77,6 +102,7 @@ const About = () => {
                     <HeaderBtn onClick={()=> window.open("https://www.linkedin.com/in/biest/", "_blank")}>LinkedIn</HeaderBtn>
                     <h4>logan.biesterfeldt@gmail.com</h4>
             </Body>
+            <Button onClick={() => scrollTo("#demo")}><LogoImage src={MetaMaskLogo}></LogoImage></Button>
             
         </Content>
     </Base>

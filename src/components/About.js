@@ -2,6 +2,7 @@ import '../App.css';
 import styled from 'styled-components';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import degenApe from'../img/degenApe.png';
+import orbitalApe from '../img/OA-7381-small.png';
 
 const Base = styled("div")`
 
@@ -26,10 +27,12 @@ const Button = styled("div")`
     border-radius: 6px;
     padding: 4px 8px 4px 8px;
     background-color: rgba(0,0,0,0);
-    color: rgb(30,190,250);
+    color: #0647bf;
+    background: rgb(171,176,196);
+    background: linear-gradient(300deg, rgba(171,176,196,1) 0%, rgba(209,209,209,1) 100%);
+    border-color: rgb(10,70,220);
     cursor: pointer;
     border: solid;
-    border-color: rgb(30,190,250);
     width: 150px;
     text-align: center;
     padding: 6px;
@@ -79,14 +82,14 @@ const ColumnContent = styled("div")`
 `
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
+    color: #0647bf;
     margin-block-start: 0em;
     margin-block-end: 0em;
 `;
 
 const HeaderBtn = styled("h3")`
     width: 40%;
-    color: rgba(30,190,250);
+    color: #0647bf;
     cursor: pointer;
     line-height: 120%;
     transition: 500ms;
@@ -113,12 +116,12 @@ const About = () => {
     return <Base>
         <Content id="about">
                 <Column1>
-                    <HeaderBtn onClick={()=> window.open("https://twitter.com/degenape1855", "_blank")}>Twitter</HeaderBtn>
+                    <HeaderBtn onClick={()=> window.open("https://twitter.com/1biesterfeldt", "_blank")}>Twitter</HeaderBtn>
                     <HeaderBtn onClick={()=> window.open("https://www.linkedin.com/in/biest/", "_blank")}>LinkedIn</HeaderBtn>
                     <H1Shadow>Logan<br/> Biesterfeldt</H1Shadow>
                 </Column1>
                 <Column2>
-                <img src={degenApe} style={{ resizeMode: "contain", width: 600, marginBottom: 0, paddingBottom: 0, marginTop: 0}}></img>
+                <img src={orbitalApe} style={{ resizeMode: "contain", width: 600, marginBottom: 0, paddingBottom: 0, marginTop: 0}}></img>
                 </Column2>
                 <Column3>
                     <ColumnContent>

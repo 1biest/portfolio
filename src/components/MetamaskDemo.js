@@ -15,6 +15,7 @@ const Base = {
     paddingTop: '200px',
     height: '100vh',
     color: '#000',
+    transition: 'all 500ms',
 }
 
 const SectionHeader = {
@@ -36,10 +37,11 @@ const Content = styled("div")`
     background: rgb(253,120,60);
     box-shadow: 0px 3px 60px 10px rgba(0, 0, 0, 0.3), inset -1px 1px 60px 20px rgba(255, 255, 255, 0.1);
     transform: scale(1);
-    transition: 500ms;
+    transition: all 500ms;
   
     :hover {
       transform: scale(0.95);
+      transition: all 500ms;
       background: rgba(230,230,230,1);
       box-shadow: 10px 10px 60px 10px rgba(0, 0, 0, 0.3), inset -1px 1px 60px 20px rgba(255, 255, 255, 1);
     }
@@ -59,12 +61,13 @@ const MetamaskButton = styled("button")`
     border-color: rgb(253,120,60);
     background: rgba(255,255,255,0.9);
     transform: scale(1);
-    transition: 500ms;
+    transition: all 500ms;
   
     :hover {
       color: rgb(0,0,0);
       background: rgb(253,120,60);
       transform: scale(1.05);
+      transition: all 500ms;
     }
 `;
 

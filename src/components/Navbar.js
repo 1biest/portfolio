@@ -50,7 +50,7 @@ const Button = styled("div")`
 
     :hover {
       color: rgb(255,255,255);
-      background-color: rgb(100,120,150);
+      background-color: rgb(30,190,250);
       transition: 500ms;
     }
 `

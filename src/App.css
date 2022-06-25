@@ -79,7 +79,7 @@ p {
 }
 
 a {
-  color: rgba(30,190,250);
+  background-color: rgb(30,110,190);
   text-decoration: none;
   font-weight: 500;
 }

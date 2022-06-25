@@ -8,7 +8,7 @@ import ReactScrollWheelHandler from "react-scroll-wheel-handler";
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
-import Experience from './components/Experiencev4';
+import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import MetamaskDemo from './components/MetamaskDemo';

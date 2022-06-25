@@ -50,7 +50,7 @@ const Button = styled("div")`
 
     :hover {
       color: rgb(255,255,255);
-      background-color: rgb(100,120,150);
+      background-color: rgb(10,70,220);
       transition: 500ms;
     }
 `
@@ -72,7 +72,6 @@ const Navbar = () => {
                 <Button onClick={() => scrollTo("#experience")}>Experience</Button>
                 <Button onClick={() => scrollTo("#portfolio")}>Portfolio</Button>
                 <Button onClick={() => scrollTo("#footer")}>Contact</Button>
-                <Button onClick={() => scrollTo("#demo")}><LogoImage src={MetaMaskLogo}></LogoImage></Button>
             </Nav>
         </Content>
     </Base>

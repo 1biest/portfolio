@@ -41,10 +41,11 @@ const Body = styled("div")`
     margin: auto;
     margin-bottom: 20px;
     justify-content: center;
+    text-align: center;
 `;
 
 const SectionText = styled("div")`
-    width: 200px;
+    width: 10%;
     height: 100%;
     margin: 1%;
     padding: 30px;
@@ -56,11 +57,19 @@ const SectionText = styled("div")`
     border-color: rgba(255,255,255,0.15);
     border-width: 1px;
     box-shadow: 0 0 200px rgba(15,15,15,0.15);
+    transition: all 500ms;
+    overflow: hidden;
+
+    :hover {
+      width: 30%;
+      transition: all 500ms;
+    }
 `;
 
 const Button = styled("div")`
     border-radius: 6px;
     padding: 4px 8px 4px 8px;
+    margin: auto;
     background-color: rgba(0,0,0,0);
     color: rgb(30,190,250);
     cursor: pointer;
@@ -88,7 +97,6 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     padding-top: 50px;
 `;
 
@@ -97,6 +105,7 @@ const LogoImage = styled("img")`
     vertical-align: text-bottom;
     height: 30px;
     border-radius: 50;
+    padding-bottom: 20px;
 
 `
 
@@ -128,8 +137,6 @@ const Experience = () => {
                 </SectionText>
 
             </Body>
-                    <Button onClick={() => scrollTo("#portfolio")}>Portfolio</Button>
-            
         </Content>
     </Base>
 }

@@ -2,6 +2,8 @@ import '../App.css';
 import styled from 'styled-components';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
+import MetaMaskLogo from'../img/MetaMask_Fox.svg.png';
+
 const Base = styled("div")`
 
 background: rgb(20,20,30);
@@ -20,16 +22,7 @@ const Content = styled("div")`
     height: 100vh;
 `;
 
-const Button = styled("div")`
-    border-radius: 6px;
-    padding: 4px 8px 4px 8px;
-    background-color: rgba(0,0,0,0);
-    color: rgb(200,200,200);
-    cursor: pointer; 
-`;
-
 const HeaderBtn = styled("h3")`
-    color: rgba(30,190,250);
     cursor: pointer;
     line-height: 100%;
     transition: 500ms;
@@ -48,7 +41,6 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     padding-top: 50px;
 `;
 
@@ -63,6 +55,37 @@ const Body = styled("div")`
     border-width: 1px;
     box-shadow: 0 0 200px rgba(15,15,15,0.15);
 `;
+
+const Button = styled("div")`
+    border-radius: 6px;
+    padding: 4px 8px 4px 8px;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    color: rgb(30,190,250);
+    cursor: pointer;
+    border: solid;
+    border-color: rgb(30,190,250);
+    width: 150px;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    transition: all 500ms;
+
+    :hover {
+      color: rgb(60,60,70);
+      background-color: rgba(30,190,250,1);
+      transition: all 500ms;
+    }
+`;
+
+const LogoImage = styled("img")`
+    resize-mode: contain;
+    vertical-align: text-bottom;
+    height: 30px;
+    border-radius: 50;
+
+`
 
 const About = () => {
     return <Base id="footer">

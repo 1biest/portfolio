@@ -29,7 +29,7 @@ const Button = styled("div")`
 `;
 
 const HeaderBtn = styled("h3")`
-    color: rgba(30,190,250);
+    color: rgb(30,110,190);
     cursor: pointer;
     line-height: 100%;
     transition: 500ms;
@@ -48,7 +48,7 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
+    color: rgb(30,110,190);
     padding-top: 50px;
 `;
 

@@ -86,12 +86,11 @@ const Header = styled("div")`
 `;
 
 const SectionHeader = styled("h3")`
-    color: rgba(30,190,250);
     padding-top: 50px;
 `;
 
 const SkillCardSectionHeader = styled("h3")`
-    color: rgba(30,190,250);
+    color: rgba(160,160,160);
     max-width: 50%;
 `;
 
@@ -162,7 +161,6 @@ const About = () => {
                     <p>I dove head first into the decentralized blockchain and owership economy. A paradigm shift to decentralization and self sovereignty is being realised, and I am contributing to the new wave of innovation.</p>
                     <p>I am currently creating educational content about Proof of Stake at <a href="https://stake.fish" target={'blank'}>stakefish</a>.</p>
                     
-                    <Button onClick={() => scrollTo("#experience")}>Experience</Button>
                 </SectionText>
 
             </Body>

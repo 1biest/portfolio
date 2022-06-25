@@ -78,8 +78,12 @@ p {
   color: rgb(240,240,240);
 }
 
+h3 {
+  color: #ebe889;
+}
+
 a {
-  color: rgba(30,190,250);
+  color: #ebe889;
   text-decoration: none;
   font-weight: 500;
 }
@@ -92,6 +96,7 @@ a:hover{
 }
 
 .Header{
+    color:#ebe889;
     width: 60%;
     margin: auto;
     padding-right: 20px;
@@ -104,6 +109,10 @@ a:hover{
     border-color: rgba(255,255,255,0.2);
     background-color: rgba(255,255,255,0.01);
 };
+
+.sectionHeader{
+  color:#ebe889;
+}
 
 .LogoContainer{
   background-color: #fff;
